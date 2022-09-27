@@ -2,7 +2,6 @@ import "./Styles/Tweet.css";
 import React, {useState} from 'react';
 import Header from "./Components/Header.js";
 import Likess from "./Components/Likess.js";
-import Time from "./Components/Time.js";
 
 
 function App() {
@@ -55,8 +54,6 @@ function App() {
       {post.map((props) =>
 
     <div className="input-container">
-
-        <Time/>
 
         <p>Author: {props.author}</p>
         <p>Date: {props.date}</p>
